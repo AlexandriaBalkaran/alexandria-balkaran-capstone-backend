@@ -5,6 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "migrate": "knex migrate:latest",
+    "migrate:down": "npx knex migrate:down",
     "seed": "knex seed:run",
     "start": "nodemon index.js"
   },
