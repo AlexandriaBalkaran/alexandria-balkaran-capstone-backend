@@ -254,9 +254,7 @@
         }
       ],
       "website": "http://www.barotoronto.com"
-    }
-  ]
-  [
+    },
     {
       "name": "The Rec Room",
       "neighbourhood": "Waterfront",
@@ -538,9 +536,7 @@
         }
       ],
       "website": "https://www.wildfiresteakhouse.com"
-    }
-  ]
-  [
+    },
     {
       "name": "Richmond Station",
       "neighbourhood": "Financial District",
@@ -820,9 +816,7 @@
         }
       ],
       "website": "https://www.thelibertinetoronto.com"
-    }
-  ]
-  [
+    },
     {
       "name": "Harbour Sixty Steakhouse",
       "neighbourhood": "Waterfront",
@@ -1101,9 +1095,7 @@
         }
       ],
       "website": "https://www.reservoirlounge.com"
-    }
-  ]
-  [
+    },
     {
       "name": "Bar Hop",
       "neighbourhood": "Queen West",
@@ -1413,9 +1405,7 @@
         }
       ],
       "website": "https://www.kitchentable.ca"
-    }
-  ]
-  [
+    },
     {
       "name": "The Libertine",
       "neighbourhood": "King West",
@@ -1695,339 +1685,4 @@
       ],
       "website": "https://www.kegsteakhouse.com"
     }
-  ]
-  
-
-
-
-
-
-
-
-  
-
-
-  // REVISED DATA STRUCTURE
-  {
-    "Monday": [
-      {
-        "name": "The Libertine",
-        "neighbourhood": "King West",
-        "address": "1307 Dundas St W, Toronto ON M6J 1X8",
-        "time_of_deal": "4:00 PM",
-        "period": "afternoon",
-        "drink_deals": [
-          {
-            "name": "Draft Beer",
-            "price": "$5"
-          },
-          {
-            "name": "House Margarita",
-            "price": "$6"
-          }
-        ],
-        "food_deals": [
-          {
-            "name": "Tacos",
-            "price": "$4 each"
-          },
-          {
-            "name": "Jalapeño Poppers",
-            "price": "$6"
-          }
-        ],
-        "website": "https://www.thelibertinetoronto.com"
-      },
-      {
-        "name": "Craft Beer Market",
-        "neighbourhood": "King West",
-        "address": "1 Adelaide St E, Toronto ON M5C 2V9",
-        "time_of_deal": "4:00 PM",
-        "period": "afternoon",
-        "drink_deals": [
-          {
-            "name": "Craft Beer on Tap",
-            "price": "$5"
-          },
-          {
-            "name": "Red Sangria",
-            "price": "$7"
-          }
-        ],
-        "food_deals": [
-          {
-            "name": "Beer Battered Fish Tacos",
-            "price": "$8"
-          },
-          {
-            "name": "Pulled Pork Sliders",
-            "price": "$7"
-          }
-        ],
-        "website": "https://www.craftbeermarket.ca"
-      }
-    ],
-    "Tuesday": [
-      {
-        "name": "El Catrin",
-        "neighbourhood": "Distillery District",
-        "address": "18 Tank House Ln, Toronto ON M5A 3C4",
-        "time_of_deal": "4:00 PM",
-        "period": "afternoon",
-        "drink_deals": [
-          {
-            "name": "Tequila Margarita",
-            "price": "$7"
-          },
-          {
-            "name": "Modelo",
-            "price": "$5"
-          }
-        ],
-        "food_deals": [
-          {
-            "name": "Guacamole & Chips",
-            "price": "$6"
-          },
-          {
-            "name": "Fish Tacos",
-            "price": "$8"
-          }
-        ],
-        "website": "https://www.elcatrin.ca"
-      },
-      {
-        "name": "The Garrison",
-        "neighbourhood": "Parkdale",
-        "address": "1197 Dundas St W, Toronto ON M6J 1X3",
-        "time_of_deal": "5:00 PM",
-        "period": "evening",
-        "drink_deals": [
-          {
-            "name": "House Draft Beer",
-            "price": "$4"
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": "$7"
-          }
-        ],
-        "food_deals": [
-          {
-            "name": "Mac & Cheese Bites",
-            "price": "$7"
-          },
-          {
-            "name": "Pulled Pork Tacos",
-            "price": "$8"
-          }
-        ],
-        "website": "https://www.thegarrison.ca"
-      }
-    ],
-    "Wednesday": [
-      {
-        "name": "Craft Beer Market",
-        "neighbourhood": "King West",
-        "address": "1 Adelaide St E, Toronto ON M5C 2V9",
-        "time_of_deal": "5:00 PM",
-        "period": "evening",
-        "drink_deals": [
-          {
-            "name": "Craft Beer on Tap",
-            "price": "$5"
-          },
-          {
-            "name": "Red Sangria",
-            "price": "$7"
-          }
-        ],
-        "food_deals": [
-          {
-            "name": "Beer Battered Fish Tacos",
-            "price": "$8"
-          },
-          {
-            "name": "Pulled Pork Sliders",
-            "price": "$7"
-          }
-        ],
-        "website": "https://www.craftbeermarket.ca"
-      },
-      {
-        "name": "Cold Tea",
-        "neighbourhood": "King West",
-        "address": "60 Bathurst St, Toronto ON M5V 2P4",
-        "time_of_deal": "5:00 PM",
-        "period": "evening",
-        "drink_deals": [
-          {
-            "name": "Sake Bombs",
-            "price": "$6"
-          },
-          {
-            "name": "Draft Beer",
-            "price": "$5"
-          }
-        ],
-        "food_deals": [
-          {
-            "name": "Edamame",
-            "price": "$4"
-          },
-          {
-            "name": "Pork Buns",
-            "price": "$7"
-          }
-        ],
-        "website": "https://www.coldteato.com"
-      }
-    ],
-    "Thursday": [
-      {
-        "name": "The Sweet Cherry",
-        "neighbourhood": "Financial District",
-        "address": "55 University Ave, Toronto ON M5J 2H7",
-        "time_of_deal": "4:30 PM",
-        "period": "afternoon",
-        "drink_deals": [
-          {
-            "name": "Red Wine",
-            "price": "$6"
-          },
-          {
-            "name": "House Mojito",
-            "price": "$7"
-          }
-        ],
-        "food_deals": [
-          {
-            "name": "Sushi Rolls",
-            "price": "$8"
-          },
-          {
-            "name": "Tempura Vegetables",
-            "price": "$7"
-          }
-        ],
-        "website": "https://www.sweetcherrytoronto.com"
-      },
-      {
-        "name": "The Keg Steakhouse & Bar",
-        "neighbourhood": "Yonge & Eglinton",
-        "address": "5050 Yonge St, Toronto ON M2N 5P2",
-        "time_of_deal": "5:00 PM",
-        "period": "evening",
-        "drink_deals": [
-          {
-            "name": "House Red Wine",
-            "price": "$7"
-          },
-          {
-            "name": "Pilsner Beer",
-            "price": "$5"
-          }
-        ],
-        "food_deals": [
-          {
-            "name": "Prime Rib Sliders",
-            "price": "$10"
-          },
-          {
-            "name": "Garlic Mashed Potatoes",
-            "price": "$7"
-          }
-        ],
-        "website": "https://www.kegsteakhouse.com"
-      }
-    ],
-    "Friday": [
-      {
-        "name": "The Drake Commissary",
-        "neighbourhood": "Parkdale",
-        "address": "128 Sterling Rd, Toronto ON M6R 2B7",
-        "time_of_deal": "5:00 PM",
-        "period": "evening",
-        "drink_deals": [
-          {
-            "name": "Draft Beer",
-            "price": "$5"
-          },
-          {
-            "name": "Negroni",
-            "price": "$7"
-          }
-        ],
-        "food_deals": [
-          {
-            "name": "Cheese & Charcuterie",
-            "price": "$8"
-          },
-          {
-            "name": "Fried Chicken Sliders",
-            "price": "$9"
-          }
-        ],
-        "website": "https://www.thedrake.ca"
-      },
-      {
-        "name": "Rasa",
-        "neighbourhood": "Queen West",
-        "address": "67 Kensington Ave, Toronto ON M5T 2K3",
-        "time_of_deal": "5:00 PM",
-        "period": "evening",
-        "drink_deals": [
-          {
-            "name": "House Wine",
-            "price": "$6"
-          },
-          {
-            "name": "Cuba Libre",
-            "price": "$7"
-          }
-        ],
-        "food_deals": [
-          {
-            "name": "Tuna Tartare",
-            "price": "$9"
-          },
-          {
-            "name": "Bruschetta",
-            "price": "$7"
-          }
-        ],
-        "website": "https://www.rasa.to"
-      }
-    ],
-    "3:00 PM": [
-      {
-        "name": "Craft Beer Market",
-        "neighbourhood": "King West",
-        "address": "1 Adelaide St E, Toronto ON M5C 2V9",
-        "date_of_deal": ["Monday"],
-        "time_of_deal": "3:00 PM",
-        "period": "afternoon",
-        "drink_deals": [
-          {
-            "name": "Craft Beer on Tap",
-            "price": "$5"
-          },
-          {
-            "name": "Red Sangria",
-            "price": "$7"
-          }
-        ],
-        "food_deals": [
-          {
-            "name": "Beer Battered Fish Tacos",
-            "price": "$8"
-          },
-          {
-            "name": "Pulled Pork Sliders",
-            "price": "$7"
-          }
-        ],
-        "website": "https://www.craftbeermarket.ca"
-      }
-    ]
-  }
+]
