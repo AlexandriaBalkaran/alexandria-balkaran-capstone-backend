@@ -1,515 +1,2982 @@
 [
+  {
+    "name": "Luma",
+    "neighbourhood": "King West",
+    "address": "330 King St West, Toronto ON M5V 3X5",
+    "deals": [
+      {
+        "type_of_drink": "cocktail",
+        "category": "Signature Cocktail",
+        "price": 6,
+        "start": 1600,
+        "end": 1730,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Signature Cocktail",
+        "price": 6,
+        "start": 1600,
+        "end": 1730,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Signature Cocktail",
+        "price": 6,
+        "start": 1600,
+        "end": 1730,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Signature Cocktail",
+        "price": 6,
+        "start": 1600,
+        "end": 1730,
+        "day": "Friday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Signature Cocktail",
+        "price": 6,
+        "start": 1600,
+        "end": 1730,
+        "day": "Saturday"
+      },
+      {
+        "type_of_drink": "wine",
+        "category": "House Wine",
+        "price": 5,
+        "start": 1730,
+        "end": 2000,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "wine",
+        "category": "House Wine",
+        "price": 5,
+        "start": 1730,
+        "end": 2000,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "wine",
+        "category": "House Wine",
+        "price": 5,
+        "start": 1730,
+        "end": 2000,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "wine",
+        "category": "House Wine",
+        "price": 5,
+        "start": 1730,
+        "end": 2000,
+        "day": "Friday"
+      },
+      {
+        "type_of_drink": "wine",
+        "category": "House Wine",
+        "price": 5,
+        "start": 1730,
+        "end": 2000,
+        "day": "Saturday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Bruschetta",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Bruschetta",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Bruschetta",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Thursday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Bruschetta",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Friday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Bruschetta",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Saturday"
+      },
+      {
+        "type_of_food": "main",
+        "category": "Calamari",
+        "price": 10,
+        "start": 1730,
+        "end": 2000,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_food": "main",
+        "category": "Calamari",
+        "price": 10,
+        "start": 1730,
+        "end": 2000,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_food": "main",
+        "category": "Calamari",
+        "price": 10,
+        "start": 1730,
+        "end": 2000,
+        "day": "Thursday"
+      },
+      {
+        "type_of_food": "main",
+        "category": "Calamari",
+        "price": 10,
+        "start": 1730,
+        "end": 2000,
+        "day": "Friday"
+      },
+      {
+        "type_of_food": "main",
+        "category": "Calamari",
+        "price": 10,
+        "start": 1730,
+        "end": 2000,
+        "day": "Saturday"
+      }
+    ],
+    "website": "http://www.lumarestaurant.com"
+  },
+  {
+    "name": "The Joneses",
+    "neighbourhood": "Downtown Toronto",
+    "address": "33 Yonge St #100, Toronto ON M5E 1S9",
+    "deals": [
+      {
+        "type_of_drink": "cocktail",
+        "category": "House Margarita",
+        "price": 5,
+        "start": 1700,
+        "end": 1800,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "House Margarita",
+        "price": 5,
+        "start": 1700,
+        "end": 1800,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "House Margarita",
+        "price": 5,
+        "start": 1700,
+        "end": 1800,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "House Margarita",
+        "price": 5,
+        "start": 1700,
+        "end": 1800,
+        "day": "Friday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "House Margarita",
+        "price": 5,
+        "start": 1700,
+        "end": 1800,
+        "day": "Saturday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "Beer (local tap)",
+        "price": 4,
+        "start": 1700,
+        "end": 1800,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "Beer (local tap)",
+        "price": 4,
+        "start": 1700,
+        "end": 1800,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "Beer (local tap)",
+        "price": 4,
+        "start": 1700,
+        "end": 1800,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "Beer (local tap)",
+        "price": 4,
+        "start": 1700,
+        "end": 1800,
+        "day": "Friday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "Beer (local tap)",
+        "price": 4,
+        "start": 1700,
+        "end": 1800,
+        "day": "Saturday"
+      },
+      {
+        "type_of_food": "main",
+        "category": "Tacos",
+        "price": 6,
+        "start": 1700,
+        "end": 1800,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_food": "main",
+        "category": "Tacos",
+        "price": 6,
+        "start": 1700,
+        "end": 1800,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_food": "main",
+        "category": "Tacos",
+        "price": 6,
+        "start": 1700,
+        "end": 1800,
+        "day": "Thursday"
+      },
+      {
+        "type_of_food": "main",
+        "category": "Tacos",
+        "price": 6,
+        "start": 1700,
+        "end": 1800,
+        "day": "Friday"
+      },
+      {
+        "type_of_food": "main",
+        "category": "Tacos",
+        "price": 6,
+        "start": 1700,
+        "end": 1800,
+        "day": "Saturday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Wings",
+        "price": 8,
+        "start": 1800,
+        "end": 1900,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Wings",
+        "price": 8,
+        "start": 1800,
+        "end": 1900,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Wings",
+        "price": 8,
+        "start": 1800,
+        "end": 1900,
+        "day": "Thursday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Wings",
+        "price": 8,
+        "start": 1800,
+        "end": 1900,
+        "day": "Friday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Wings",
+        "price": 8,
+        "start": 1800,
+        "end": 1900,
+        "day": "Saturday"
+      }
+    ],
+    "website": ""
+  },
+  {
+    "name": "O&B Canteen",
+    "neighbourhood": "King West",
+    "address": "330 King St. W, Toronto ON M5V 3X2",
+    "deals": [
+      {
+        "type_of_drink": "cocktail",
+        "category": "Cosmopolitan",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Monday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Cosmopolitan",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Cosmopolitan",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Cosmopolitan",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Cosmopolitan",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Friday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "Pale Ale",
+        "price": 4,
+        "start": 1600,
+        "end": 1730,
+        "day": "Monday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "Pale Ale",
+        "price": 4,
+        "start": 1600,
+        "end": 1730,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "Pale Ale",
+        "price": 4,
+        "start": 1600,
+        "end": 1730,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "Pale Ale",
+        "price": 4,
+        "start": 1600,
+        "end": 1730,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "Pale Ale",
+        "price": 4,
+        "start": 1600,
+        "end": 1730,
+        "day": "Friday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Chips & Guacamole",
+        "price": 6,
+        "start": 1600,
+        "end": 1730,
+        "day": "Monday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Chips & Guacamole",
+        "price": 6,
+        "start": 1600,
+        "end": 1730,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Chips & Guacamole",
+        "price": 6,
+        "start": 1600,
+        "end": 1730,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Chips & Guacamole",
+        "price": 6,
+        "start": 1600,
+        "end": 1730,
+        "day": "Thursday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Chips & Guacamole",
+        "price": 6,
+        "start": 1600,
+        "end": 1730,
+        "day": "Friday"
+      }
+    ],
+    "website": "https://www.obcanteen.com"
+  },
+  {
+    "name": "The Dorset",
+    "neighbourhood": "Leslieville",
+    "address": "2190 Queen St E, Toronto ON M4E 1E2",
+    "deals": [
+      {
+        "type_of_drink": "cocktail",
+        "category": "Negroni",
+        "price": 8,
+        "start": 1600,
+        "end": 1730,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Negroni",
+        "price": 8,
+        "start": 1600,
+        "end": 1730,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Negroni",
+        "price": 8,
+        "start": 1600,
+        "end": 1730,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Negroni",
+        "price": 8,
+        "start": 1600,
+        "end": 1730,
+        "day": "Friday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Negroni",
+        "price": 8,
+        "start": 1600,
+        "end": 1730,
+        "day": "Saturday"
+      }
+    ],
+    "website": ""
+  },
+  {
+    "name": "Valerie",
+    "neighbourhood": "Waterfront",
+    "address": "111 Princes' Blvd, Toronto ON M6K 3C3",
+    "deals": [
+      {
+        "type_of_drink": "cocktail",
+        "category": "Classic Mojito",
+        "price": 6,
+        "start": 1700,
+        "end": 1800,
+        "day": "Monday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Classic Mojito",
+        "price": 6,
+        "start": 1700,
+        "end": 1800,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Classic Mojito",
+        "price": 6,
+        "start": 1700,
+        "end": 1800,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Classic Mojito",
+        "price": 6,
+        "start": 1700,
+        "end": 1800,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Classic Mojito",
+        "price": 6,
+        "start": 1700,
+        "end": 1800,
+        "day": "Friday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Champagne Cocktail",
+        "price": 8,
+        "start": 1700,
+        "end": 1800,
+        "day": "Monday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Champagne Cocktail",
+        "price": 8,
+        "start": 1700,
+        "end": 1800,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Champagne Cocktail",
+        "price": 8,
+        "start": 1700,
+        "end": 1800,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Champagne Cocktail",
+        "price": 8,
+        "start": 1700,
+        "end": 1800,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Champagne Cocktail",
+        "price": 8,
+        "start": 1700,
+        "end": 1800,
+        "day": "Friday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Shrimp Tempura",
+        "price": 10,
+        "start": 1700,
+        "end": 1800,
+        "day": "Monday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Shrimp Tempura",
+        "price": 10,
+        "start": 1700,
+        "end": 1800,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Shrimp Tempura",
+        "price": 10,
+        "start": 1700,
+        "end": 1800,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Shrimp Tempura",
+        "price": 10,
+        "start": 1700,
+        "end": 1800,
+        "day": "Thursday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Shrimp Tempura",
+        "price": 10,
+        "start": 1700,
+        "end": 1800,
+        "day": "Friday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Tuna Lettuce Wraps",
+        "price": 8,
+        "start": 1700,
+        "end": 1800,
+        "day": "Monday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Tuna Lettuce Wraps",
+        "price": 8,
+        "start": 1700,
+        "end": 1800,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Tuna Lettuce Wraps",
+        "price": 8,
+        "start": 1700,
+        "end": 1800,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Tuna Lettuce Wraps",
+        "price": 8,
+        "start": 1700,
+        "end": 1800,
+        "day": "Thursday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Tuna Lettuce Wraps",
+        "price": 8,
+        "start": 1700,
+        "end": 1800,
+        "day": "Friday"
+      }
+    ],
+    "website": "https://www.chotto-matte.com"
+  },
+  {
+    "name": "Cactus Club Cafe",
+    "neighbourhood": "Financial District",
+    "address": "77 Adelaide St W, Toronto ON M5X 1C1",
+    "deals": [
+      {
+        "type_of_drink": "cocktail",
+        "category": "Cactus Club Margarita",
+        "price": 7,
+        "start": 1500,
+        "end": 1600,
+        "day": "Monday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Cactus Club Margarita",
+        "price": 7,
+        "start": 1500,
+        "end": 1600,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Cactus Club Margarita",
+        "price": 7,
+        "start": 1500,
+        "end": 1600,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Cactus Club Margarita",
+        "price": 7,
+        "start": 1500,
+        "end": 1600,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Cactus Club Margarita",
+        "price": 7,
+        "start": 1500,
+        "end": 1600,
+        "day": "Friday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "House Beer",
+        "price": 4,
+        "start": 1500,
+        "end": 1600,
+        "day": "Monday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "House Beer",
+        "price": 4,
+        "start": 1500,
+        "end": 1600,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "House Beer",
+        "price": 4,
+        "start": 1500,
+        "end": 1600,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "House Beer",
+        "price": 4,
+        "start": 1500,
+        "end": 1600,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "House Beer",
+        "price": 4,
+        "start": 1500,
+        "end": 1600,
+        "day": "Friday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Spicy Tuna Tacos",
+        "price": 6,
+        "start": 1500,
+        "end": 1600,
+        "day": "Monday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Spicy Tuna Tacos",
+        "price": 6,
+        "start": 1500,
+        "end": 1600,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Spicy Tuna Tacos",
+        "price": 6,
+        "start": 1500,
+        "end": 1600,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Spicy Tuna Tacos",
+        "price": 6,
+        "start": 1500,
+        "end": 1600,
+        "day": "Thursday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Spicy Tuna Tacos",
+        "price": 6,
+        "start": 1500,
+        "end": 1600,
+        "day": "Friday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Crispy Calamari",
+        "price": 9,
+        "start": 1500,
+        "end": 1600,
+        "day": "Monday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Crispy Calamari",
+        "price": 9,
+        "start": 1500,
+        "end": 1600,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Crispy Calamari",
+        "price": 9,
+        "start": 1500,
+        "end": 1600,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Crispy Calamari",
+        "price": 9,
+        "start": 1500,
+        "end": 1600,
+        "day": "Thursday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Crispy Calamari",
+        "price": 9,
+        "start": 1500,
+        "end": 1600,
+        "day": "Friday"
+      }
+    ],
+    "website": "http://www.cactusclubcafe.com"
+  },
+  {
+    "name": "Chotto Matte",
+    "neighbourhood": "Downtown Toronto",
+    "address": "161 Bay St, Toronto ON M5J 2S4",
+    "deals": [
+      {
+        "type_of_drink": "cocktail",
+        "category": "Sake Mule",
+        "price": 5,
+        "start": 1500,
+        "end": 1600,
+        "day": "Monday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Sake Mule",
+        "price": 5,
+        "start": 1500,
+        "end": 1600,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Sake Mule",
+        "price": 5,
+        "start": 1500,
+        "end": 1600,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Sake Mule",
+        "price": 5,
+        "start": 1500,
+        "end": 1600,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Sake Mule",
+        "price": 5,
+        "start": 1500,
+        "end": 1600,
+        "day": "Friday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Japanese Whisky Highball",
+        "price": 7,
+        "start": 1500,
+        "end": 1600,
+        "day": "Monday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Japanese Whisky Highball",
+        "price": 7,
+        "start": 1500,
+        "end": 1600,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Japanese Whisky Highball",
+        "price": 7,
+        "start": 1500,
+        "end": 1600,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Japanese Whisky Highball",
+        "price": 7,
+        "start": 1500,
+        "end": 1600,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Japanese Whisky Highball",
+        "price": 7,
+        "start": 1500,
+        "end": 1600,
+        "day": "Friday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Edamame",
+        "price": 4,
+        "start": 1500,
+        "end": 1600,
+        "day": "Monday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Edamame",
+        "price": 4,
+        "start": 1500,
+        "end": 1600,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Edamame",
+        "price": 4,
+        "start": 1500,
+        "end": 1600,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Edamame",
+        "price": 4,
+        "start": 1500,
+        "end": 1600,
+        "day": "Thursday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Edamame",
+        "price": 4,
+        "start": 1500,
+        "end": 1600,
+        "day": "Friday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Tuna Poke",
+        "price": 8,
+        "start": 1500,
+        "end": 1600,
+        "day": "Monday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Tuna Poke",
+        "price": 8,
+        "start": 1500,
+        "end": 1600,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Tuna Poke",
+        "price": 8,
+        "start": 1500,
+        "end": 1600,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Tuna Poke",
+        "price": 8,
+        "start": 1500,
+        "end": 1600,
+        "day": "Thursday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Tuna Poke",
+        "price": 8,
+        "start": 1500,
+        "end": 1600,
+        "day": "Friday"
+      }
+    ],
+    "website": "https://www.chotto-matte.com"
+  },
+  {
+    "name": "Baro",
+    "neighbourhood": "King West",
+    "address": "485 King Street West, Toronto ON M5V 1K4",
+    "deals": [
+      {
+        "type_of_drink": "cocktail",
+        "category": "Caipirinha",
+        "price": 6,
+        "start": 1600,
+        "end": 1730,
+        "day": "Monday"
+      },
+      {
+        "type_of_drink": "wine",
+        "category": "House Wine",
+        "price": 5,
+        "start": 1730,
+        "end": 2000,
+        "day": "Monday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Ceviche",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Monday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Churros",
+        "price": 6,
+        "start": 1730,
+        "end": 2000,
+        "day": "Monday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Caipirinha",
+        "price": 6,
+        "start": 1600,
+        "end": 1730,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "wine",
+        "category": "House Wine",
+        "price": 5,
+        "start": 1730,
+        "end": 2000,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Ceviche",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Churros",
+        "price": 6,
+        "start": 1730,
+        "end": 2000,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Caipirinha",
+        "price": 6,
+        "start": 1600,
+        "end": 1730,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "wine",
+        "category": "House Wine",
+        "price": 5,
+        "start": 1730,
+        "end": 2000,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Ceviche",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Churros",
+        "price": 6,
+        "start": 1730,
+        "end": 2000,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Caipirinha",
+        "price": 6,
+        "start": 1600,
+        "end": 1730,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "wine",
+        "category": "House Wine",
+        "price": 5,
+        "start": 1730,
+        "end": 2000,
+        "day": "Thursday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Ceviche",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Thursday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Churros",
+        "price": 6,
+        "start": 1730,
+        "end": 2000,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "Caipirinha",
+        "price": 6,
+        "start": 1600,
+        "end": 1730,
+        "day": "Friday"
+      },
+      {
+        "type_of_drink": "wine",
+        "category": "House Wine",
+        "price": 5,
+        "start": 1730,
+        "end": 2000,
+        "day": "Friday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Ceviche",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Friday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Churros",
+        "price": 6,
+        "start": 1730,
+        "end": 2000,
+        "day": "Friday"
+      }
+    ],
+    "website": "http://www.barotoronto.com"
+  },
+  {
+    "name": "The Rec Room",
+    "neighbourhood": "Waterfront",
+    "address": "255 Bremner Blvd, Toronto ON M5V 3M9",
+    "deals": [
+      {
+        "type_of_drink": "cocktail",
+        "category": "House Margarita",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Monday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "Domestic Beer",
+        "price": 4,
+        "start": 1730,
+        "end": 2000,
+        "day": "Monday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Loaded Fries",
+        "price": 5,
+        "start": 1600,
+        "end": 1730,
+        "day": "Monday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Chicken Tenders",
+        "price": 8,
+        "start": 1730,
+        "end": 2000,
+        "day": "Monday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "House Margarita",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "Domestic Beer",
+        "price": 4,
+        "start": 1730,
+        "end": 2000,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Loaded Fries",
+        "price": 5,
+        "start": 1600,
+        "end": 1730,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Chicken Tenders",
+        "price": 8,
+        "start": 1730,
+        "end": 2000,
+        "day": "Tuesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "House Margarita",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "Domestic Beer",
+        "price": 4,
+        "start": 1730,
+        "end": 2000,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Loaded Fries",
+        "price": 5,
+        "start": 1600,
+        "end": 1730,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Chicken Tenders",
+        "price": 8,
+        "start": 1730,
+        "end": 2000,
+        "day": "Wednesday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "House Margarita",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "Domestic Beer",
+        "price": 4,
+        "start": 1730,
+        "end": 2000,
+        "day": "Thursday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Loaded Fries",
+        "price": 5,
+        "start": 1600,
+        "end": 1730,
+        "day": "Thursday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Chicken Tenders",
+        "price": 8,
+        "start": 1730,
+        "end": 2000,
+        "day": "Thursday"
+      },
+      {
+        "type_of_drink": "cocktail",
+        "category": "House Margarita",
+        "price": 7,
+        "start": 1600,
+        "end": 1730,
+        "day": "Friday"
+      },
+      {
+        "type_of_drink": "beer",
+        "category": "Domestic Beer",
+        "price": 4,
+        "start": 1730,
+        "end": 2000,
+        "day": "Friday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Loaded Fries",
+        "price": 5,
+        "start": 1600,
+        "end": 1730,
+        "day": "Friday"
+      },
+      {
+        "type_of_food": "appetizer",
+        "category": "Chicken Tenders",
+        "price": 8,
+        "start": 1730,
+        "end": 2000,
+        "day": "Friday"
+      }
+    ],
+    "website": "https://www.therecroom.com"
+  },
     {
-      "name": "Luma",
-      "neighbourhood": "King West",
-      "address": "330 King St West, Toronto ON M5V 3X5",
+      "name": "Scaddabush",
+      "neighbourhood": "Financial District",
+      "address": "156 Front St W, Toronto ON M5J 2L6",
       "deals": [
         {
           "type_of_drink": "cocktail",
-          "category": "Signature Cocktail",
+          "category": "Bellini",
           "price": 6,
-          "start": 1600,
-          "end": 1730,
-          "day": "Tuesday"
-        },
-        {
-          "type_of_drink": "cocktail",
-          "category": "Signature Cocktail",
-          "price": 6,
-          "start": 1600,
-          "end": 1730,
-          "day": "Wednesday"
-        },
-        {
-          "type_of_drink": "cocktail",
-          "category": "Signature Cocktail",
-          "price": 6,
-          "start": 1600,
-          "end": 1730,
-          "day": "Thursday"
-        },
-        {
-          "type_of_drink": "cocktail",
-          "category": "Signature Cocktail",
-          "price": 6,
-          "start": 1600,
-          "end": 1730,
-          "day": "Friday"
-        },
-        {
-          "type_of_drink": "cocktail",
-          "category": "Signature Cocktail",
-          "price": 6,
-          "start": 1600,
-          "end": 1730,
-          "day": "Saturday"
-        },
-        {
-          "type_of_drink": "wine",
-          "category": "House Wine",
-          "price": 5,
-          "start": 1730,
-          "end": 2000,
-          "day": "Tuesday"
-        },
-        {
-          "type_of_drink": "wine",
-          "category": "House Wine",
-          "price": 5,
-          "start": 1730,
-          "end": 2000,
-          "day": "Wednesday"
-        },
-        {
-          "type_of_drink": "wine",
-          "category": "House Wine",
-          "price": 5,
-          "start": 1730,
-          "end": 2000,
-          "day": "Thursday"
-        },
-        {
-          "type_of_drink": "wine",
-          "category": "House Wine",
-          "price": 5,
-          "start": 1730,
-          "end": 2000,
-          "day": "Friday"
-        },
-        {
-          "type_of_drink": "wine",
-          "category": "House Wine",
-          "price": 5,
-          "start": 1730,
-          "end": 2000,
-          "day": "Saturday"
-        },
-        {
-          "type_of_food": "appetizer",
-          "category": "Bruschetta",
-          "price": 7,
-          "start": 1600,
-          "end": 1730,
-          "day": "Tuesday"
-        },
-        {
-          "type_of_food": "appetizer",
-          "category": "Bruschetta",
-          "price": 7,
-          "start": 1600,
-          "end": 1730,
-          "day": "Wednesday"
-        },
-        {
-          "type_of_food": "appetizer",
-          "category": "Bruschetta",
-          "price": 7,
-          "start": 1600,
-          "end": 1730,
-          "day": "Thursday"
-        },
-        {
-          "type_of_food": "appetizer",
-          "category": "Bruschetta",
-          "price": 7,
-          "start": 1600,
-          "end": 1730,
-          "day": "Friday"
-        },
-        {
-          "type_of_food": "appetizer",
-          "category": "Bruschetta",
-          "price": 7,
-          "start": 1600,
-          "end": 1730,
-          "day": "Saturday"
-        },
-        {
-          "type_of_food": "main",
-          "category": "Calamari",
-          "price": 10,
-          "start": 1730,
-          "end": 2000,
-          "day": "Tuesday"
-        },
-        {
-          "type_of_food": "main",
-          "category": "Calamari",
-          "price": 10,
-          "start": 1730,
-          "end": 2000,
-          "day": "Wednesday"
-        },
-        {
-          "type_of_food": "main",
-          "category": "Calamari",
-          "price": 10,
-          "start": 1730,
-          "end": 2000,
-          "day": "Thursday"
-        },
-        {
-          "type_of_food": "main",
-          "category": "Calamari",
-          "price": 10,
-          "start": 1730,
-          "end": 2000,
-          "day": "Friday"
-        },
-        {
-          "type_of_food": "main",
-          "category": "Calamari",
-          "price": 10,
-          "start": 1730,
-          "end": 2000,
-          "day": "Saturday"
-        }
-      ],
-      "website": "http://www.lumarestaurant.com"
-    },
-    {
-      "name": "The Joneses",
-      "neighbourhood": "Downtown Toronto",
-      "address": "33 Yonge St #100, Toronto ON M5E 1S9",
-      "deals": [
-        {
-          "type_of_drink": "cocktail",
-          "category": "House Margarita",
-          "price": 5,
-          "start": 1700,
-          "end": 1800,
-          "day": "Tuesday"
-        },
-        {
-          "type_of_drink": "cocktail",
-          "category": "House Margarita",
-          "price": 5,
-          "start": 1700,
-          "end": 1800,
-          "day": "Wednesday"
-        },
-        {
-          "type_of_drink": "cocktail",
-          "category": "House Margarita",
-          "price": 5,
-          "start": 1700,
-          "end": 1800,
-          "day": "Thursday"
-        },
-        {
-          "type_of_drink": "cocktail",
-          "category": "House Margarita",
-          "price": 5,
-          "start": 1700,
-          "end": 1800,
-          "day": "Friday"
-        },
-        {
-          "type_of_drink": "cocktail",
-          "category": "House Margarita",
-          "price": 5,
-          "start": 1700,
-          "end": 1800,
-          "day": "Saturday"
-        },
-        {
-          "type_of_drink": "beer",
-          "category": "Beer (local tap)",
-          "price": 4,
-          "start": 1700,
-          "end": 1800,
-          "day": "Tuesday"
-        },
-        {
-          "type_of_drink": "beer",
-          "category": "Beer (local tap)",
-          "price": 4,
-          "start": 1700,
-          "end": 1800,
-          "day": "Wednesday"
-        },
-        {
-          "type_of_drink": "beer",
-          "category": "Beer (local tap)",
-          "price": 4,
-          "start": 1700,
-          "end": 1800,
-          "day": "Thursday"
-        },
-        {
-          "type_of_drink": "beer",
-          "category": "Beer (local tap)",
-          "price": 4,
-          "start": 1700,
-          "end": 1800,
-          "day": "Friday"
-        },
-        {
-          "type_of_drink": "beer",
-          "category": "Beer (local tap)",
-          "price": 4,
-          "start": 1700,
-          "end": 1800,
-          "day": "Saturday"
-        },
-        {
-          "type_of_food": "main",
-          "category": "Tacos",
-          "price": 6,
-          "start": 1700,
-          "end": 1800,
-          "day": "Tuesday"
-        },
-        {
-          "type_of_food": "main",
-          "category": "Tacos",
-          "price": 6,
-          "start": 1700,
-          "end": 1800,
-          "day": "Wednesday"
-        },
-        {
-          "type_of_food": "main",
-          "category": "Tacos",
-          "price": 6,
-          "start": 1700,
-          "end": 1800,
-          "day": "Thursday"
-        },
-        {
-          "type_of_food": "main",
-          "category": "Tacos",
-          "price": 6,
-          "start": 1700,
-          "end": 1800,
-          "day": "Friday"
-        },
-        {
-          "type_of_food": "main",
-          "category": "Tacos",
-          "price": 6,
-          "start": 1700,
-          "end": 1800,
-          "day": "Saturday"
-        },
-        {
-          "type_of_food": "appetizer",
-          "category": "Wings",
-          "price": 8,
-          "start": 1800,
-          "end": 1900,
-          "day": "Tuesday"
-        },
-        {
-          "type_of_food": "appetizer",
-          "category": "Wings",
-          "price": 8,
-          "start": 1800,
-          "end": 1900,
-          "day": "Wednesday"
-        },
-        {
-          "type_of_food": "appetizer",
-          "category": "Wings",
-          "price": 8,
-          "start": 1800,
-          "end": 1900,
-          "day": "Thursday"
-        },
-        {
-          "type_of_food": "appetizer",
-          "category": "Wings",
-          "price": 8,
-          "start": 1800,
-          "end": 1900,
-          "day": "Friday"
-        },
-        {
-          "type_of_food": "appetizer",
-          "category": "Wings",
-          "price": 8,
-          "start": 1800,
-          "end": 1900,
-          "day": "Saturday"
-        }
-      ],
-      "website": ""
-    },
-    {
-      "name": "O&B Canteen",
-      "neighbourhood": "King West",
-      "address": "330 King St. W, Toronto ON M5V 3X2",
-      "deals": [
-        {
-          "type_of_drink": "cocktail",
-          "category": "Cosmopolitan",
-          "price": 7,
           "start": 1600,
           "end": 1730,
           "day": "Monday"
         },
         {
           "type_of_drink": "cocktail",
-          "category": "Cosmopolitan",
-          "price": 7,
+          "category": "Bellini",
+          "price": 6,
           "start": 1600,
           "end": 1730,
           "day": "Tuesday"
         },
         {
-          "type_of_drink": "cocktail",
-          "category": "Cosmopolitan",
-          "price": 7,
-          "start": 1600,
-          "end": 1730,
-          "day": "Wednesday"
-        },
-        {
-          "type_of_drink": "cocktail",
-          "category": "Cosmopolitan",
-          "price": 7,
-          "start": 1600,
-          "end": 1730,
-          "day": "Thursday"
-        },
-        {
-          "type_of_drink": "cocktail",
-          "category": "Cosmopolitan",
-          "price": 7,
-          "start": 1600,
-          "end": 1730,
-          "day": "Friday"
-        },
-        {
-          "type_of_drink": "beer",
-          "category": "Pale Ale",
-          "price": 4,
+          "type_of_drink": "wine",
+          "category": "House Red Wine",
+          "price": 5,
           "start": 1600,
           "end": 1730,
           "day": "Monday"
         },
         {
-          "type_of_drink": "beer",
-          "category": "Pale Ale",
-          "price": 4,
+          "type_of_drink": "wine",
+          "category": "House Red Wine",
+          "price": 5,
           "start": 1600,
           "end": 1730,
           "day": "Tuesday"
         },
         {
-          "type_of_drink": "beer",
-          "category": "Pale Ale",
-          "price": 4,
-          "start": 1600,
-          "end": 1730,
-          "day": "Wednesday"
-        },
-        {
-          "type_of_drink": "beer",
-          "category": "Pale Ale",
-          "price": 4,
-          "start": 1600,
-          "end": 1730,
-          "day": "Thursday"
-        },
-        {
-          "type_of_drink": "beer",
-          "category": "Pale Ale",
-          "price": 4,
-          "start": 1600,
-          "end": 1730,
-          "day": "Friday"
-        },
-        {
           "type_of_food": "appetizer",
-          "category": "Chips & Guacamole",
-          "price": 6,
+          "category": "Bruschetta",
+          "price": 7,
           "start": 1600,
           "end": 1730,
           "day": "Monday"
         },
         {
           "type_of_food": "appetizer",
-          "category": "Chips & Guacamole",
-          "price": 6,
+          "category": "Bruschetta",
+          "price": 7,
           "start": 1600,
           "end": 1730,
           "day": "Tuesday"
-        },
-        {
-          "type_of_food": "appetizer",
-          "category": "Chips & Guacamole",
-          "price": 6,
-          "start": 1600,
-          "end": 1730,
-          "day": "Wednesday"
-        },
-        {
-          "type_of_food": "appetizer",
-          "category": "Chips & Guacamole",
-          "price": 6,
-          "start": 1600,
-          "end": 1730,
-          "day": "Thursday"
-        },
-        {
-          "type_of_food": "appetizer",
-          "category": "Chips & Guacamole",
-          "price": 6,
-          "start": 1600,
-          "end": 1730,
-          "day": "Friday"
         }
       ],
-      "website": "https://www.obcanteen.com"
+      "website": "https://www.scaddabush.com"
     },
     {
-      "name": "The Dorset",
-      "neighbourhood": "Leslieville",
-      "address": "2190 Queen St E, Toronto ON M4E 1E2",
+      "name": "The Keg Steakhouse + Bar",
+      "neighbourhood": "Yorkville",
+      "address": "40 Front St E, Toronto ON M5E 1A1",
       "deals": [
         {
           "type_of_drink": "cocktail",
-          "category": "Negroni",
+          "category": "Caesar",
+          "price": 5,
+          "start": 1630,
+          "end": 1800,
+          "day": "Monday"
+        },
+        {
+          "type_of_drink": "beer",
+          "category": "Domestic Beer",
+          "price": 4,
+          "start": 1630,
+          "end": 1800,
+          "day": "Monday"
+        },
+        {
+          "type_of_food": "main",
+          "category": "Prime Rib Sliders",
           "price": 8,
-          "start": 1600,
-          "end": 1730,
+          "start": 1630,
+          "end": 1800,
+          "day": "Monday"
+        },
+        {
+          "type_of_food": "main",
+          "category": "Crispy Shrimp",
+          "price": 9,
+          "start": 1630,
+          "end": 1800,
+          "day": "Monday"
+        }
+      ],
+      "website": "https://www.kegsteakhouse.com"
+    },
+    {
+      "name": "Bar Chef",
+      "neighbourhood": "Queen West",
+      "address": "472 Queen St W, Toronto ON M5V 2A9",
+      "deals": [
+        {
+          "type_of_drink": "cocktail",
+          "category": "Classic Martini",
+          "price": 8,
+          "start": 1700,
+          "end": 1800,
           "day": "Tuesday"
         },
         {
-          "type_of_drink": "cocktail",
-          "category": "Negroni",
-          "price": 8,
-          "start": 1600,
-          "end": 1730,
-          "day": "Wednesday"
+          "type_of_drink": "wine",
+          "category": "Wine by the Glass",
+          "price": 6,
+          "start": 1700,
+          "end": 1800,
+          "day": "Tuesday"
         },
         {
-          "type_of_drink": "cocktail",
-          "category": "Negroni",
-          "price": 8,
-          "start": 1600,
-          "end": 1730,
-          "day": "Thursday"
+          "type_of_food": "appetizer",
+          "category": "Gourmet Fries",
+          "price": 6,
+          "start": 1700,
+          "end": 1800,
+          "day": "Tuesday"
         },
         {
-          "type_of_drink": "cocktail",
-          "category": "Negroni",
-          "price": 8,
-          "start": 1600,
-          "end": 1730,
-          "day": "Friday"
-        },
-        {
-          "type_of_drink": "cocktail",
-          "category": "Negroni",
-          "price": 8,
-          "start": 1600,
-          "end": 1730,
-          "day": "Saturday"
+          "type_of_food": "main",
+          "category": "Cheese Board",
+          "price": 12,
+          "start": 1700,
+          "end": 1800,
+          "day": "Tuesday"
         }
       ],
-      "website": ""
-    }
-  ]
+      "website": "https://www.barchef.com"
+    },
+    {
+      "name": "Kōjin",
+      "neighbourhood": "King Street West",
+      "address": "190 University Ave, Toronto ON M5H 0A3",
+      "deals": [
+        {
+          "type_of_drink": "cocktail",
+          "category": "Whiskey Sour",
+          "price": 9,
+          "start": 1600,
+          "end": 1730,
+          "day": "Monday"
+        },
+        {
+          "type_of_drink": "wine",
+          "category": "House Red Wine",
+          "price": 6,
+          "start": 1600,
+          "end": 1730,
+          "day": "Monday"
+        },
+        {
+          "type_of_food": "main",
+          "category": "Short Rib Sliders",
+          "price": 10,
+          "start": 1600,
+          "end": 1730,
+          "day": "Monday"
+        },
+        {
+          "type_of_food": "main",
+          "category": "Grilled Veggies",
+          "price": 7,
+          "start": 1600,
+          "end": 1730,
+          "day": "Monday"
+        }
+      ],
+      "website": "https://www.konrestaurant.com"
+    },
+      {
+        "name": "Patria",
+        "neighbourhood": "King West",
+        "address": "478 King St W, Toronto ON M5V 1L7",
+        "deals": [
+          {
+            "type_of_drink": "cocktail",
+            "category": "Sangria",
+            "price": 7,
+            "start": 1600,
+            "end": 1730,
+            "day": "Tuesday"
+          },
+          {
+            "type_of_drink": "cocktail",
+            "category": "Sangria",
+            "price": 7,
+            "start": 1600,
+            "end": 1730,
+            "day": "Wednesday"
+          },
+          {
+            "type_of_drink": "cocktail",
+            "category": "Sangria",
+            "price": 7,
+            "start": 1600,
+            "end": 1730,
+            "day": "Thursday"
+          },
+          {
+            "type_of_drink": "cocktail",
+            "category": "Sangria",
+            "price": 7,
+            "start": 1600,
+            "end": 1730,
+            "day": "Friday"
+          },
+          {
+            "type_of_drink": "cocktail",
+            "category": "Tinto Vermut",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Tuesday"
+          },
+          {
+            "type_of_drink": "cocktail",
+            "category": "Tinto Vermut",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Wednesday"
+          },
+          {
+            "type_of_drink": "cocktail",
+            "category": "Tinto Vermut",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Thursday"
+          },
+          {
+            "type_of_drink": "cocktail",
+            "category": "Tinto Vermut",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Friday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Patatas Bravas",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Tuesday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Patatas Bravas",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Wednesday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Patatas Bravas",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Thursday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Patatas Bravas",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Friday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Chorizo Bites",
+            "price": 8,
+            "start": 1600,
+            "end": 1730,
+            "day": "Tuesday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Chorizo Bites",
+            "price": 8,
+            "start": 1600,
+            "end": 1730,
+            "day": "Wednesday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Chorizo Bites",
+            "price": 8,
+            "start": 1600,
+            "end": 1730,
+            "day": "Thursday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Chorizo Bites",
+            "price": 8,
+            "start": 1600,
+            "end": 1730,
+            "day": "Friday"
+          }
+        ],
+        "website": "https://www.patria.ca"
+      },
+      {
+        "name": "The Drake Hotel",
+        "neighbourhood": "Queen West",
+        "address": "1150 Queen St W, Toronto ON M6J 1J3",
+        "deals": [
+          {
+            "type_of_drink": "cocktail",
+            "category": "Gin & Tonic",
+            "price": 7,
+            "start": 1600,
+            "end": 1730,
+            "day": "Monday"
+          },
+          {
+            "type_of_drink": "cocktail",
+            "category": "Gin & Tonic",
+            "price": 7,
+            "start": 1600,
+            "end": 1730,
+            "day": "Tuesday"
+          },
+          {
+            "type_of_drink": "cocktail",
+            "category": "Gin & Tonic",
+            "price": 7,
+            "start": 1600,
+            "end": 1730,
+            "day": "Wednesday"
+          },
+          {
+            "type_of_drink": "cocktail",
+            "category": "Gin & Tonic",
+            "price": 7,
+            "start": 1600,
+            "end": 1730,
+            "day": "Thursday"
+          },
+          {
+            "type_of_drink": "cocktail",
+            "category": "Gin & Tonic",
+            "price": 7,
+            "start": 1600,
+            "end": 1730,
+            "day": "Friday"
+          },
+          {
+            "type_of_drink": "wine",
+            "category": "House Red Wine",
+            "price": 6,
+            "start": 1600,
+            "end": 1730,
+            "day": "Monday"
+          },
+          {
+            "type_of_drink": "wine",
+            "category": "House Red Wine",
+            "price": 6,
+            "start": 1600,
+            "end": 1730,
+            "day": "Tuesday"
+          },
+          {
+            "type_of_drink": "wine",
+            "category": "House Red Wine",
+            "price": 6,
+            "start": 1600,
+            "end": 1730,
+            "day": "Wednesday"
+          },
+          {
+            "type_of_drink": "wine",
+            "category": "House Red Wine",
+            "price": 6,
+            "start": 1600,
+            "end": 1730,
+            "day": "Thursday"
+          },
+          {
+            "type_of_drink": "wine",
+            "category": "House Red Wine",
+            "price": 6,
+            "start": 1600,
+            "end": 1730,
+            "day": "Friday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Tater Tots",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Monday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Tater Tots",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Tuesday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Tater Tots",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Wednesday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Tater Tots",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Thursday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Tater Tots",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Friday"
+          },
+          {
+            "type_of_food": "main",
+            "category": "Grilled Cheese",
+            "price": 8,
+            "start": 1600,
+            "end": 1730,
+            "day": "Monday"
+          },
+          {
+            "type_of_food": "main",
+            "category": "Grilled Cheese",
+            "price": 8,
+            "start": 1600,
+            "end": 1730,
+            "day": "Tuesday"
+          },
+          {
+            "type_of_food": "main",
+            "category": "Grilled Cheese",
+            "price": 8,
+            "start": 1600,
+            "end": 1730,
+            "day": "Wednesday"
+          },
+          {
+            "type_of_food": "main",
+            "category": "Grilled Cheese",
+            "price": 8,
+            "start": 1600,
+            "end": 1730,
+            "day": "Thursday"
+          },
+          {
+            "type_of_food": "main",
+            "category": "Grilled Cheese",
+            "price": 8,
+            "start": 1600,
+            "end": 1730,
+            "day": "Friday"
+          }
+        ],
+        "website": "https://www.thedrake.ca"
+      },
+      {
+        "name": "The Queen & Beaver Public House",
+        "neighbourhood": "Yorkville",
+        "address": "35 Elm St, Toronto ON M5G 1H1",
+        "deals": [
+          {
+            "type_of_drink": "beer",
+            "category": "English Ale",
+            "price": 6,
+            "start": 1600,
+            "end": 1730,
+            "day": "Monday"
+          },
+          {
+            "type_of_drink": "beer",
+            "category": "English Ale",
+            "price": 6,
+            "start": 1600,
+            "end": 1730,
+            "day": "Tuesday"
+          },
+          {
+            "type_of_drink": "beer",
+            "category": "English Ale",
+            "price": 6,
+            "start": 1600,
+            "end": 1730,
+            "day": "Wednesday"
+          },
+          {
+            "type_of_drink": "beer",
+            "category": "English Ale",
+            "price": 6,
+            "start": 1600,
+            "end": 1730,
+            "day": "Thursday"
+          },
+          {
+            "type_of_drink": "beer",
+            "category": "English Ale",
+            "price": 6,
+            "start": 1600,
+            "end": 1730,
+            "day": "Friday"
+          },
+          {
+            "type_of_drink": "wine",
+            "category": "House Wine",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Monday"
+          },
+          {
+            "type_of_drink": "wine",
+            "category": "House Wine",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Tuesday"
+          },
+          {
+            "type_of_drink": "wine",
+            "category": "House Wine",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Wednesday"
+          },
+          {
+            "type_of_drink": "wine",
+            "category": "House Wine",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Thursday"
+          },
+          {
+            "type_of_drink": "wine",
+            "category": "House Wine",
+            "price": 5,
+            "start": 1600,
+            "end": 1730,
+            "day": "Friday"
+          },
+          {
+            "type_of_food": "main",
+            "category": "Fish & Chips",
+            "price": 10,
+            "start": 1600,
+            "end": 1730,
+            "day": "Monday"
+          },
+          {
+            "type_of_food": "main",
+            "category": "Fish & Chips",
+            "price": 10,
+            "start": 1600,
+            "end": 1730,
+            "day": "Tuesday"
+          },
+          {
+            "type_of_food": "main",
+            "category": "Fish & Chips",
+            "price": 10,
+            "start": 1600,
+            "end": 1730,
+            "day": "Wednesday"
+          },
+          {
+            "type_of_food": "main",
+            "category": "Fish & Chips",
+            "price": 10,
+            "start": 1600,
+            "end": 1730,
+            "day": "Thursday"
+          },
+          {
+            "type_of_food": "main",
+            "category": "Fish & Chips",
+            "price": 10,
+            "start": 1600,
+            "end": 1730,
+            "day": "Friday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Beef Wellington Bites",
+            "price": 8,
+            "start": 1600,
+            "end": 1730,
+            "day": "Monday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Beef Wellington Bites",
+            "price": 8,
+            "start": 1600,
+            "end": 1730,
+            "day": "Tuesday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Beef Wellington Bites",
+            "price": 8,
+            "start": 1600,
+            "end": 1730,
+            "day": "Wednesday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Beef Wellington Bites",
+            "price": 8,
+            "start": 1600,
+            "end": 1730,
+            "day": "Thursday"
+          },
+          {
+            "type_of_food": "appetizer",
+            "category": "Beef Wellington Bites",
+            "price": 8,
+            "start": 1600,
+            "end": 1730,
+            "day": "Friday"
+          }
+        ],
+        "website": "https://www.queenandbeaver.ca"
+      },
+        {
+          "name": "Wildfire Steakhouse & Wine Bar",
+          "neighbourhood": "Yorkville",
+          "address": "2300 Yonge St, Toronto ON M4P 1E4",
+          "deals": [
+            {
+              "type_of_drink": "cocktail",
+              "category": "Caipirinha",
+              "price": 7,
+              "start": 1630,
+              "end": 1730,
+              "day": "Monday"
+            },
+            {
+              "type_of_drink": "wine",
+              "category": "House Red Wine",
+              "price": 6,
+              "start": 1630,
+              "end": 1730,
+              "day": "Monday"
+            },
+            {
+              "type_of_food": "appetizer",
+              "category": "Oysters",
+              "price": 6,
+              "start": 1630,
+              "end": 1730,
+              "day": "Monday"
+            },
+            {
+              "type_of_food": "main",
+              "category": "Grilled Shrimp Skewers",
+              "price": 9,
+              "start": 1630,
+              "end": 1730,
+              "day": "Monday"
+            },
+            {
+              "type_of_drink": "cocktail",
+              "category": "Caipirinha",
+              "price": 7,
+              "start": 1630,
+              "end": 1730,
+              "day": "Tuesday"
+            },
+            {
+              "type_of_drink": "wine",
+              "category": "House Red Wine",
+              "price": 6,
+              "start": 1630,
+              "end": 1730,
+              "day": "Tuesday"
+            },
+            {
+              "type_of_food": "appetizer",
+              "category": "Oysters",
+              "price": 6,
+              "start": 1630,
+              "end": 1730,
+              "day": "Tuesday"
+            },
+            {
+              "type_of_food": "main",
+              "category": "Grilled Shrimp Skewers",
+              "price": 9,
+              "start": 1630,
+              "end": 1730,
+              "day": "Tuesday"
+            },
+            {
+              "type_of_drink": "cocktail",
+              "category": "Caipirinha",
+              "price": 7,
+              "start": 1630,
+              "end": 1730,
+              "day": "Wednesday"
+            },
+            {
+              "type_of_drink": "wine",
+              "category": "House Red Wine",
+              "price": 6,
+              "start": 1630,
+              "end": 1730,
+              "day": "Wednesday"
+            },
+            {
+              "type_of_food": "appetizer",
+              "category": "Oysters",
+              "price": 6,
+              "start": 1630,
+              "end": 1730,
+              "day": "Wednesday"
+            },
+            {
+              "type_of_food": "main",
+              "category": "Grilled Shrimp Skewers",
+              "price": 9,
+              "start": 1630,
+              "end": 1730,
+              "day": "Wednesday"
+            },
+            {
+              "type_of_drink": "cocktail",
+              "category": "Caipirinha",
+              "price": 7,
+              "start": 1630,
+              "end": 1730,
+              "day": "Thursday"
+            },
+            {
+              "type_of_drink": "wine",
+              "category": "House Red Wine",
+              "price": 6,
+              "start": 1630,
+              "end": 1730,
+              "day": "Thursday"
+            },
+            {
+              "type_of_food": "appetizer",
+              "category": "Oysters",
+              "price": 6,
+              "start": 1630,
+              "end": 1730,
+              "day": "Thursday"
+            },
+            {
+              "type_of_food": "main",
+              "category": "Grilled Shrimp Skewers",
+              "price": 9,
+              "start": 1630,
+              "end": 1730,
+              "day": "Thursday"
+            },
+            {
+              "type_of_drink": "cocktail",
+              "category": "Caipirinha",
+              "price": 7,
+              "start": 1630,
+              "end": 1730,
+              "day": "Friday"
+            },
+            {
+              "type_of_drink": "wine",
+              "category": "House Red Wine",
+              "price": 6,
+              "start": 1630,
+              "end": 1730,
+              "day": "Friday"
+            },
+            {
+              "type_of_food": "appetizer",
+              "category": "Oysters",
+              "price": 6,
+              "start": 1630,
+              "end": 1730,
+              "day": "Friday"
+            },
+            {
+              "type_of_food": "main",
+              "category": "Grilled Shrimp Skewers",
+              "price": 9,
+              "start": 1630,
+              "end": 1730,
+              "day": "Friday"
+            }
+          ],
+          "website": "https://www.wildfiresteakhouse.com"
+        },
+        {
+          "name": "Richmond Station",
+          "neighbourhood": "Financial District",
+          "address": "1 Richmond St W, Toronto ON M5H 3W4",
+          "deals": [
+            {
+              "type_of_drink": "cocktail",
+              "category": "Gin & Tonic",
+              "price": 8,
+              "start": 1600,
+              "end": 1700,
+              "day": "Monday"
+            },
+            {
+              "type_of_drink": "beer",
+              "category": "Beer on Tap",
+              "price": 5,
+              "start": 1600,
+              "end": 1700,
+              "day": "Monday"
+            },
+            {
+              "type_of_food": "main",
+              "category": "Grilled Cheese Sandwich",
+              "price": 7,
+              "start": 1600,
+              "end": 1700,
+              "day": "Monday"
+            },
+            {
+              "type_of_food": "appetizer",
+              "category": "Potato Wedges",
+              "price": 6,
+              "start": 1600,
+              "end": 1700,
+              "day": "Monday"
+            },
+            {
+              "type_of_drink": "cocktail",
+              "category": "Gin & Tonic",
+              "price": 8,
+              "start": 1600,
+              "end": 1700,
+              "day": "Tuesday"
+            },
+            {
+              "type_of_drink": "beer",
+              "category": "Beer on Tap",
+              "price": 5,
+              "start": 1600,
+              "end": 1700,
+              "day": "Tuesday"
+            },
+            {
+              "type_of_food": "main",
+              "category": "Grilled Cheese Sandwich",
+              "price": 7,
+              "start": 1600,
+              "end": 1700,
+              "day": "Tuesday"
+            },
+            {
+              "type_of_food": "appetizer",
+              "category": "Potato Wedges",
+              "price": 6,
+              "start": 1600,
+              "end": 1700,
+              "day": "Tuesday"
+            },
+            {
+              "type_of_drink": "cocktail",
+              "category": "Gin & Tonic",
+              "price": 8,
+              "start": 1600,
+              "end": 1700,
+              "day": "Wednesday"
+            },
+            {
+              "type_of_drink": "beer",
+              "category": "Beer on Tap",
+              "price": 5,
+              "start": 1600,
+              "end": 1700,
+              "day": "Wednesday"
+            },
+            {
+              "type_of_food": "main",
+              "category": "Grilled Cheese Sandwich",
+              "price": 7,
+              "start": 1600,
+              "end": 1700,
+              "day": "Wednesday"
+            },
+            {
+              "type_of_food": "appetizer",
+              "category": "Potato Wedges",
+              "price": 6,
+              "start": 1600,
+              "end": 1700,
+              "day": "Wednesday"
+            },
+            {
+              "type_of_drink": "cocktail",
+              "category": "Gin & Tonic",
+              "price": 8,
+              "start": 1600,
+              "end": 1700,
+              "day": "Thursday"
+            },
+            {
+              "type_of_drink": "beer",
+              "category": "Beer on Tap",
+              "price": 5,
+              "start": 1600,
+              "end": 1700,
+              "day": "Thursday"
+            },
+            {
+              "type_of_food": "main",
+              "category": "Grilled Cheese Sandwich",
+              "price": 7,
+              "start": 1600,
+              "end": 1700,
+              "day": "Thursday"
+            },
+            {
+              "type_of_food": "appetizer",
+              "category": "Potato Wedges",
+              "price": 6,
+              "start": 1600,
+              "end": 1700,
+              "day": "Thursday"
+            },
+            {
+              "type_of_drink": "cocktail",
+              "category": "Gin & Tonic",
+              "price": 8,
+              "start": 1600,
+              "end": 1700,
+              "day": "Friday"
+            },
+            {
+              "type_of_drink": "beer",
+              "category": "Beer on Tap",
+              "price": 5,
+              "start": 1600,
+              "end": 1700,
+              "day": "Friday"
+            },
+            {
+              "type_of_food": "main",
+              "category": "Grilled Cheese Sandwich",
+              "price": 7,
+              "start": 1600,
+              "end": 1700,
+              "day": "Friday"
+            },
+            {
+              "type_of_food": "appetizer",
+              "category": "Potato Wedges",
+              "price": 6,
+              "start": 1600,
+              "end": 1700,
+              "day": "Friday"
+            }
+          ],
+          "website": "https://richmondstation.ca"
+        },
+        {
+          "name": "The Miller Tavern",
+          "neighbourhood": "York Mills",
+          "address": "3885 Yonge St, Toronto ON M4N 3N6",
+          "deals": [
+            {
+              "type_of_drink": "beer",
+              "category": "House Lager",
+              "price": 4,
+              "start": 1600,
+              "end": 1700,
+              "day": "Monday"
+            },
+            {
+              "type_of_drink": "wine",
+              "category": "White Wine by the Glass",
+              "price": 5,
+              "start": 1600,
+              "end": 1700,
+              "day": "Monday"
+            },
+            {
+              "type_of_food": "appetizer",
+              "category": "Mussels",
+              "price": 9,
+              "start": 1600,
+              "end": 1700,
+              "day": "Monday"
+            },
+            {
+              "type_of_food": "main",
+              "category": "Fried Shrimp",
+              "price": 8,
+              "start": 1600,
+              "end": 1700,
+              "day": "Monday"
+            },
+            {
+              "type_of_drink": "beer",
+              "category": "House Lager",
+              "price": 4,
+              "start": 1600,
+              "end": 1700,
+              "day": "Tuesday"
+            },
+            {
+              "type_of_drink": "wine",
+              "category": "White Wine by the Glass",
+              "price": 5,
+              "start": 1600,
+              "end": 1700,
+              "day": "Tuesday"
+            },
+            {
+              "type_of_food": "appetizer",
+              "category": "Mussels",
+              "price": 9,
+              "start": 1600,
+              "end": 1700,
+              "day": "Tuesday"
+            },
+            {
+              "type_of_food": "main",
+              "category": "Fried Shrimp",
+              "price": 8,
+              "start": 1600,
+              "end": 1700,
+              "day": "Tuesday"
+            },
+            {
+              "type_of_drink": "beer",
+              "category": "House Lager",
+              "price": 4,
+              "start": 1600,
+              "end": 1700,
+              "day": "Wednesday"
+            },
+            {
+              "type_of_drink": "wine",
+              "category": "White Wine by the Glass",
+              "price": 5,
+              "start": 1600,
+              "end": 1700,
+              "day": "Wednesday"
+            },
+            {
+              "type_of_food": "appetizer",
+              "category": "Mussels",
+              "price": 9,
+              "start": 1600,
+              "end": 1700,
+              "day": "Wednesday"
+            },
+            {
+              "type_of_food": "main",
+              "category": "Fried Shrimp",
+              "price": 8,
+              "start": 1600,
+              "end": 1700,
+              "day": "Wednesday"
+            },
+            {
+              "type_of_drink": "beer",
+              "category": "House Lager",
+              "price": 4,
+              "start": 1600,
+              "end": 1700,
+              "day": "Thursday"
+            },
+            {
+              "type_of_drink": "wine",
+              "category": "White Wine by the Glass",
+              "price": 5,
+              "start": 1600,
+              "end": 1700,
+              "day": "Thursday"
+            },
+            {
+              "type_of_food": "appetizer",
+              "category": "Mussels",
+              "price": 9,
+              "start": 1600,
+              "end": 1700,
+              "day": "Thursday"
+            },
+            {
+              "type_of_food": "main",
+              "category": "Fried Shrimp",
+              "price": 8,
+              "start": 1600,
+              "end": 1700,
+              "day": "Thursday"
+            },
+            {
+              "type_of_drink": "beer",
+              "category": "House Lager",
+              "price": 4,
+              "start": 1600,
+              "end": 1700,
+              "day": "Friday"
+            },
+            {
+              "type_of_drink": "wine",
+              "category": "White Wine by the Glass",
+              "price": 5,
+              "start": 1600,
+              "end": 1700,
+              "day": "Friday"
+            },
+            {
+              "type_of_food": "appetizer",
+              "category": "Mussels",
+              "price": 9,
+              "start": 1600,
+              "end": 1700,
+              "day": "Friday"
+            },
+            {
+              "type_of_food": "main",
+              "category": "Fried Shrimp",
+              "price": 8,
+              "start": 1600,
+              "end": 1700,
+              "day": "Friday"
+            }
+          ],
+          "website": "https://millerstaverntoronto.ca"
+        },
+          {
+            "name": "Bar Reyna",
+            "neighbourhood": "Yorkville",
+            "address": "158 Cumberland St, Toronto ON M5R 1A8",
+            "deals": [
+              {
+                "type_of_drink": "cocktail",
+                "category": "House Sangria",
+                "price": 7,
+                "start": 1700,
+                "end": 1800,
+                "day": "Monday"
+              },
+              {
+                "type_of_drink": "cocktail",
+                "category": "House Sangria",
+                "price": 7,
+                "start": 1700,
+                "end": 1800,
+                "day": "Tuesday"
+              },
+              {
+                "type_of_drink": "cocktail",
+                "category": "House Sangria",
+                "price": 7,
+                "start": 1700,
+                "end": 1800,
+                "day": "Wednesday"
+              },
+              {
+                "type_of_drink": "cocktail",
+                "category": "House Sangria",
+                "price": 7,
+                "start": 1700,
+                "end": 1800,
+                "day": "Thursday"
+              },
+              {
+                "type_of_drink": "cocktail",
+                "category": "House Sangria",
+                "price": 7,
+                "start": 1700,
+                "end": 1800,
+                "day": "Friday"
+              },
+              {
+                "type_of_drink": "cocktail",
+                "category": "Mojito",
+                "price": 8,
+                "start": 1700,
+                "end": 1800,
+                "day": "Monday"
+              },
+              {
+                "type_of_drink": "cocktail",
+                "category": "Mojito",
+                "price": 8,
+                "start": 1700,
+                "end": 1800,
+                "day": "Tuesday"
+              },
+              {
+                "type_of_drink": "cocktail",
+                "category": "Mojito",
+                "price": 8,
+                "start": 1700,
+                "end": 1800,
+                "day": "Wednesday"
+              },
+              {
+                "type_of_drink": "cocktail",
+                "category": "Mojito",
+                "price": 8,
+                "start": 1700,
+                "end": 1800,
+                "day": "Thursday"
+              },
+              {
+                "type_of_drink": "cocktail",
+                "category": "Mojito",
+                "price": 8,
+                "start": 1700,
+                "end": 1800,
+                "day": "Friday"
+              },
+              {
+                "type_of_food": "appetizer",
+                "category": "Tacos (3)",
+                "price": 10,
+                "start": 1700,
+                "end": 1800,
+                "day": "Monday"
+              },
+              {
+                "type_of_food": "appetizer",
+                "category": "Tacos (3)",
+                "price": 10,
+                "start": 1700,
+                "end": 1800,
+                "day": "Tuesday"
+              },
+              {
+                "type_of_food": "appetizer",
+                "category": "Tacos (3)",
+                "price": 10,
+                "start": 1700,
+                "end": 1800,
+                "day": "Wednesday"
+              },
+              {
+                "type_of_food": "appetizer",
+                "category": "Tacos (3)",
+                "price": 10,
+                "start": 1700,
+                "end": 1800,
+                "day": "Thursday"
+              },
+              {
+                "type_of_food": "appetizer",
+                "category": "Tacos (3)",
+                "price": 10,
+                "start": 1700,
+                "end": 1800,
+                "day": "Friday"
+              },
+              {
+                "type_of_food": "appetizer",
+                "category": "Bruschetta",
+                "price": 6,
+                "start": 1700,
+                "end": 1800,
+                "day": "Monday"
+              },
+              {
+                "type_of_food": "appetizer",
+                "category": "Bruschetta",
+                "price": 6,
+                "start": 1700,
+                "end": 1800,
+                "day": "Tuesday"
+              },
+              {
+                "type_of_food": "appetizer",
+                "category": "Bruschetta",
+                "price": 6,
+                "start": 1700,
+                "end": 1800,
+                "day": "Wednesday"
+              },
+              {
+                "type_of_food": "appetizer",
+                "category": "Bruschetta",
+                "price": 6,
+                "start": 1700,
+                "end": 1800,
+                "day": "Thursday"
+              },
+              {
+                "type_of_food": "appetizer",
+                "category": "Bruschetta",
+                "price": 6,
+                "start": 1700,
+                "end": 1800,
+                "day": "Friday"
+              }
+            ],
+            "website": "https://barreyna.com"
+          },
+          {
+            "name": "The Saint Tavern",
+            "neighbourhood": "Queen West",
+            "address": "286 King St W, Toronto ON M5V 1J2",
+            "deals": [
+              {
+                "type_of_drink": "wine",
+                "category": "House Wine",
+                "price": 5,
+                "start": 1630,
+                "end": 1730,
+                "day": "Monday"
+              },
+              {
+                "type_of_drink": "wine",
+                "category": "House Wine",
+                "price": 5,
+                "start": 1630,
+                "end": 1730,
+                "day": "Tuesday"
+              },
+              {
+                "type_of_drink": "wine",
+                "category": "House Wine",
+                "price": 5,
+                "start": 1630,
+                "end": 1730,
+                "day": "Wednesday"
+              },
+              {
+                "type_of_drink": "wine",
+                "category": "House Wine",
+                "price": 5,
+                "start": 1630,
+                "end": 1730,
+                "day": "Thursday"
+              },
+              {
+                "type_of_drink": "wine",
+                "category": "House Wine",
+                "price": 5,
+                "start": 1630,
+                "end": 1730,
+                "day": "Friday"
+              },
+              {
+                "type_of_drink": "beer",
+                "category": "Domestic Beer",
+                "price": 4,
+                "start": 1630,
+                "end": 1730,
+                "day": "Monday"
+              },
+              {
+                "type_of_drink": "beer",
+                "category": "Domestic Beer",
+                "price": 4,
+                "start": 1630,
+                "end": 1730,
+                "day": "Tuesday"
+              },
+              {
+                "type_of_drink": "beer",
+                "category": "Domestic Beer",
+                "price": 4,
+                "start": 1630,
+                "end": 1730,
+                "day": "Wednesday"
+              },
+              {
+                "type_of_drink": "beer",
+                "category": "Domestic Beer",
+                "price": 4,
+                "start": 1630,
+                "end": 1730,
+                "day": "Thursday"
+              },
+              {
+                "type_of_drink": "beer",
+                "category": "Domestic Beer",
+                "price": 4,
+                "start": 1630,
+                "end": 1730,
+                "day": "Friday"
+              },
+              {
+                "type_of_food": "appetizer",
+                "category": "Chicken Wings",
+                "price": 8,
+                "start": 1630,
+                "end": 1730,
+                "day": "Monday"
+              },
+              {
+                "type_of_food": "appetizer",
+                "category": "Chicken Wings",
+                "price": 8,
+                "start": 1630,
+                "end": 1730,
+                "day": "Tuesday"
+              },
+              {
+                "type_of_food": "appetizer",
+                "category": "Chicken Wings",
+                "price": 8,
+                "start": 1630,
+                "end": 1730,
+                "day": "Wednesday"
+              },
+              {
+                "type_of_food": "appetizer",
+                "category": "Chicken Wings",
+                "price": 8,
+                "start": 1630,
+                "end": 1730,
+                "day": "Thursday"
+              },
+              {
+                "type_of_food": "appetizer",
+                "category": "Chicken Wings",
+                "price": 8,
+                "start": 1630,
+                "end": 1730,
+                "day": "Friday"
+              },
+              {
+                "type_of_food": "main",
+                "category": "Poutine",
+                "price": 7,
+                "start": 1730,
+                "end": 1830,
+                "day": "Monday"
+              },
+              {
+                "type_of_food": "main",
+                "category": "Poutine",
+                "price": 7,
+                "start": 1730,
+                "end": 1830,
+                "day": "Tuesday"
+              },
+              {
+                "type_of_food": "main",
+                "category": "Poutine",
+                "price": 7,
+                "start": 1730,
+                "end": 1830,
+                "day": "Wednesday"
+              },
+              {
+                "type_of_food": "main",
+                "category": "Poutine",
+                "price": 7,
+                "start": 1730,
+                "end": 1830,
+                "day": "Thursday"
+              },
+              {
+                "type_of_food": "main",
+                "category": "Poutine",
+                "price": 7,
+                "start": 1730,
+                "end": 1830,
+                "day": "Friday"
+              }
+            ],
+            "website": "https://thesainttavern.com"
+          },
+          {
+            "name": "Taverna Mercatto",
+            "neighbourhood": "King Street West",
+            "address": "225 King St W, Toronto ON M5V 3M2",
+            "deals": [
+              {
+                "type_of_drink": "cocktail",
+                "category": "Aperol Spritz",
+                "price": 7,
+                "start": 1600,
+                "end": 1700,
+                "day": "Tuesday"
+              },
+              {
+                "type_of_drink": "cocktail",
+                "category": "Aperol Spritz",
+                "price": 7,
+                "start": 1600,
+                "end": 1700,
+                "day": "Wednesday"
+              },
+              {
+                "type_of_drink": "cocktail",
+                "category": "Aperol Spritz",
+                "price": 7,
+                "start": 1600,
+                "end": 1700,
+                "day": "Thursday"
+              },
+              {
+                "type_of_drink": "cocktail",
+                "category": "Aperol Spritz",
+                "price": 7,
+                "start": 1600,
+                "end": 1700,
+                "day": "Friday"
+              },
+              {
+                "type_of_drink": "cocktail",
+                "category": "Prosecco",
+                "price": 8,
+                "start": 1600,
+                "end": 1700,
+                "day": "Tuesday"
+              },
+              {
+                "type_of_drink": "cocktail",
+                "category": "Prosecco",
+                "price": 8,
+                "start": 1600,
+                "end": 1700,
+                "day": "Wednesday"
+              },
+              {
+                "type_of_drink": "cocktail",
+                "category": "Prosecco",
+                "price": 8,
+                "start": 1600,
+                "end": 1700,
+                "day": "Thursday"
+              },
+              {
+                "type_of_drink": "cocktail",
+                "category": "Prosecco",
+                "price": 8,
+                "start": 1600,
+                "end": 1700,
+                "day": "Friday"
+              },
+              {
+                "type_of_food": "main",
+                "category": "Margherita Pizza",
+                "price": 9,
+                "start": 1600,
+                "end": 1700,
+                "day": "Tuesday"
+              },
+              {
+                "type_of_food": "main",
+                "category": "Margherita Pizza",
+                "price": 9,
+                "start": 1600,
+                "end": 1700,
+                "day": "Wednesday"
+              },
+              {
+                "type_of_food": "main",
+                "category": "Margherita Pizza",
+                "price": 9,
+                "start": 1600,
+                "end": 1700,
+                "day": "Thursday"
+              },
+              {
+                "type_of_food": "main",
+                "category": "Margherita Pizza",
+                "price": 9,
+                "start": 1600,
+                "end": 1700,
+                "day": "Friday"
+              },
+              {
+                "type_of_food": "main",
+                "category": "Fried Calamari",
+                "price": 10,
+                "start": 1600,
+                "end": 1700,
+                "day": "Tuesday"
+              },
+              {
+                "type_of_food": "main",
+                "category": "Fried Calamari",
+                "price": 10,
+                "start": 1600,
+                "end": 1700,
+                "day": "Wednesday"
+              },
+              {
+                "type_of_food": "main",
+                "category": "Fried Calamari",
+                "price": 10,
+                "start": 1600,
+                "end": 1700,
+                "day": "Thursday"
+              },
+              {
+                "type_of_food": "main",
+                "category": "Fried Calamari",
+                "price": 10,
+                "start": 1600,
+                "end": 1700,
+                "day": "Friday"
+              }
+            ],
+            "website": "https://mercatto.ca"
+          }
+        ]
+        
+      
+    
   
