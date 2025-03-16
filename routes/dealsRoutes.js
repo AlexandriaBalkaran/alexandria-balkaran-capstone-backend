@@ -6,6 +6,7 @@ const router = express.Router();
 
 router
 .route("/")
+.get(dealsController.index)
 
 router
 .route("/:id")
