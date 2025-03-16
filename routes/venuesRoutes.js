@@ -6,9 +6,10 @@ const router = express.Router();
 
 router
 .route("/")
-.get(venuesController.index)
+.get(venuesControllers.index);
 
 router
 .route("/:id")
+.get(venuesControllers.findOne);
 
 export default router;

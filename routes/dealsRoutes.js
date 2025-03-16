@@ -6,9 +6,10 @@ const router = express.Router();
 
 router
 .route("/")
-.get(dealsController.index)
+.get(dealsControllers.index);
 
 router
 .route("/:id")
+.get(dealsControllers.findOne);
 
 export default router;

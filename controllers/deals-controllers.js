@@ -7,6 +7,10 @@ const knex = initKnex(configuration);
 const index = async (_req, res) => {
     try {
       const deals = await knex("deals").select("*");
+
+      if (deals.length === 0) {
+        return res.status(404).json({ message: "No venues found" });
+    }
       res.status(200).json(deals);
     } catch (e) {
       res.status(400).send(`Error retrieving Users: ${e}`);
