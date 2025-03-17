@@ -13,6 +13,7 @@ export async function seed(knex) {
             name: 'Luma',
             neighbourhood: 'King West',
             address: '330 King St West, Toronto ON M5V 3X5',
+            photo: "http://localhost:8080/images/photo-01.jpg",
             website: 'http://www.lumarestaurant.com',
           },
           {
@@ -20,6 +21,7 @@ export async function seed(knex) {
             name: 'The Joneses',
             neighbourhood: 'Downtown Toronto',
             address: '33 Yonge St #100, Toronto ON M5E 1S9',
+            photo: "http://localhost:8080/images/photo-02.jpg",
             website: '',
           },
           {
@@ -27,6 +29,7 @@ export async function seed(knex) {
             name: 'O&B Canteen',
             neighbourhood: 'King West',
             address: '330 King St. W, Toronto ON M5V 3X2',
+            photo: "http://localhost:8080/images/photo-03.jpg",
             website: 'https://www.obcanteen.com',
           },
           {
@@ -34,6 +37,7 @@ export async function seed(knex) {
             name: 'The Dorset',
             neighbourhood: 'Leslieville',
             address: '2190 Queen St E, Toronto ON M4E 1E2',
+            photo: "http://localhost:8080/images/photo-04.jpg",
             website: '',
           },
           {
@@ -41,6 +45,7 @@ export async function seed(knex) {
             name: 'Valerie',
             neighbourhood: 'Waterfront',
             address: "111 Princes' Blvd, Toronto ON M6K 3C3",
+            photo: "http://localhost:8080/images/photo-05.jpg",
             website: 'https://www.chotto-matte.com',
           },
           {
@@ -48,6 +53,7 @@ export async function seed(knex) {
             name: 'Cactus Club Cafe',
             neighbourhood: 'Financial District',
             address: '77 Adelaide St W, Toronto ON M5X 1C1',
+            photo: "http://localhost:8080/images/photo-06.jpg",
             website: 'http://www.cactusclubcafe.com',
           },
           {
@@ -55,6 +61,7 @@ export async function seed(knex) {
             name: 'Chotto Matte',
             neighbourhood: 'Downtown Toronto',
             address: '161 Bay St, Toronto ON M5J 2S4',
+            photo: "http://localhost:8080/images/photo-07.jpg",
             website: 'https://www.chotto-matte.com',
           },
           {
@@ -62,6 +69,7 @@ export async function seed(knex) {
             name: 'Baro',
             neighbourhood: 'King West',
             address: '485 King Street West, Toronto ON M5V 1K4',
+            photo: "http://localhost:8080/images/photo-08.jpg",
             website: 'http://www.barotoronto.com',
           },
           {
@@ -69,102 +77,119 @@ export async function seed(knex) {
             name: "The Rec Room",
             neighbourhood: "Waterfront",
             address: "255 Bremner Blvd, Toronto ON M5V 3M9",
+            photo: "http://localhost:8080/images/photo-09.jpg",
             website: "https://www.therecroom.com"
         },{
             id: 10,
             name: "Scaddabush",
             neighbourhood: "Financial District",
             address: "156 Front St W, Toronto ON M5J 2L6",
+            photo: "http://localhost:8080/images/photo-10.jpg",
             website: "https://www.scaddabush.com"
         },{
             id: 11,
             name: "The Keg Steakhouse + Bar",
             neighbourhood: "Yorkville",
             address: "40 Front St E, Toronto ON M5E 1A1",
+            photo: "http://localhost:8080/images/photo-11.jpg",
             website: "https://www.kegsteakhouse.com"
         },{
             id: 12,
-            name: "Bar Chef",
+            name: "BarChef",
             neighbourhood: "Queen West",
             address: "472 Queen St W, Toronto ON M5V 2A9",
+            photo: "http://localhost:8080/images/photo-12.jpg",
             website: "https://www.barchef.com"
         },{
             id: 13,
             name: "Kōjin",
             neighbourhood: "King Street West",
             address: "190 University Ave, Toronto ON M5H 0A3",
+            photo: "http://localhost:8080/images/photo-13.jpg",
             website: "https://www.konrestaurant.com"
         },{
             id: 14,
             name: "Patria",
             neighbourhood: "King West",
             address: "478 King St W, Toronto ON M5V 1L7",
+            photo: "http://localhost:8080/images/photo-14.jpg",
             website: "https://www.patria.ca"
         },{
             id: 15,
             name: "The Drake Hotel",
             neighbourhood: "Queen West",
             address: "1150 Queen St W, Toronto ON M6J 1J3",
+            photo: "http://localhost:8080/images/photo-15.jpg",
             website: "https://www.thedrake.ca"
         },{
             id: 16,
             name: "The Queen & Beaver Public House",
             neighbourhood: "Yorkville",
             address: "35 Elm St, Toronto ON M5G 1H1",
+            photo: "http://localhost:8080/images/photo-16.jpg",
             website: "https://www.queenandbeaver.ca"
         },{
             id: 17,
             name: "Wildfire Steakhouse & Wine Bar",
             neighbourhood: "Yorkville",
             address: "2300 Yonge St, Toronto ON M4P 1E4",
+            photo: "http://localhost:8080/images/photo-17.jpg",
             website: "https://www.wildfiresteakhouse.com"
         },{
             id: 18,
             name: "Richmond Station",
             neighbourhood: "Financial District",
             address: "1 Richmond St W, Toronto ON M5H 3W4",
+            photo: "http://localhost:8080/images/photo-18.jpg",
             website: "https://richmondstation.ca"
         },{
             id: 19,
             name: "The Miller Tavern",
             neighbourhood: "York Mills",
             address: "3885 Yonge St, Toronto ON M4N 3N6",
+            photo: "http://localhost:8080/images/photo-19.jpg",
             website: "https://millerstaverntoronto.ca"
         },{
             id: 20,
             name: "Bar Reyna",
             neighbourhood: "Yorkville",
             address: "158 Cumberland St, Toronto ON M5R 1A8",
+            photo: "http://localhost:8080/images/photo-20.jpg",
             website: "https://barreyna.com"
         },{
             id: 21,
             name: "The Saint Tavern",
             neighbourhood: "Queen West",
             address: "286 King St W, Toronto ON M5V 1J2",
+            photo: "http://localhost:8080/images/photo-21.jpg",
             website: "https://thesainttavern.com"
         },{
             id: 22,
             name: "Taverna Mercatto",
             neighbourhood: "King Street West",
             address: "225 King St W, Toronto ON M5V 3M2",
+            photo: "http://localhost:8080/images/photo-22.jpg",
             website: "https://mercatto.ca"
         },{
             id: 23,
             name: "Café Boulud",
             neighbourhood: "Yorkville",
             address: "60 Yorkville Ave, Toronto ON M4W 0A4",
+            photo: "http://localhost:8080/images/photo-23.jpg",
             website: "https://www.cafeboulud.com"
         },{
             id: 24,
             name: "Kinka Izakaya Original",
             neighbourhood: "Financial District",
             address: "398 Church St, Toronto ON M5B 2A2",
+            photo: "http://localhost:8080/images/photo-24.jpg",
             website: "https://kinka.com"
         },{
             id: 25,
             name: "Tutto Pronto",
             neighbourhood: "Dundas West",
             address: "1175 Dundas St W, Toronto ON M6J 1X4",
+            photo: "http://localhost:8080/images/photo-25.jpg",
             website: "https://www.tuttopronto.com"
         },
         ]);

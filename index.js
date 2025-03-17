@@ -78,10 +78,12 @@ const app = express();
 const { CORS_ORIGIN } = process.env;
 app.use(cors({ origin: CORS_ORIGIN }));
 app.use(express.json());
+// app.use('/images', express.static('path_to_images_directory'));
 
 // Basic Route
 app.use("/deals", dealsRoutes);
 app.use("/venues", venuesRoutes);
+
 
 // Server Listening
 const PORT = process.env.PORT || 8080;
