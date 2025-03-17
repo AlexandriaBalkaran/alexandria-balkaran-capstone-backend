@@ -78,7 +78,7 @@ const app = express();
 const { CORS_ORIGIN } = process.env;
 app.use(cors({ origin: CORS_ORIGIN }));
 app.use(express.json());
-// app.use('/images', express.static('path_to_images_directory'));
+app.use("/images", express.static("./public/images"));
 
 // Basic Route
 app.use("/deals", dealsRoutes);

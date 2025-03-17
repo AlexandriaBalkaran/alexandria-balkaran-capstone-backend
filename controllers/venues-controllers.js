@@ -22,16 +22,15 @@ const index = async (req, res) => {
 // Get a venue by ID
 const findOne = async (req, res) => {
     try {
-        const venue = await knex("venues").where({ id: req.params.id });
+        const venue = await knex("venues").where({ id: req.params.id }).first();
 
-        if (venuesFound.length === 0) {
+        if (!venue) {
             return res.status(404).json({
                 message: `Venue with ID ${req.params.id} not found`,
             });
         }
 
-        const venueData = venuesFound[0];
-        const { updated_at, created_at, ...data } = venueData;
+        const { updated_at, created_at, ...data } = venue;
 
         res.status(200).json(data);
     } catch (e) {

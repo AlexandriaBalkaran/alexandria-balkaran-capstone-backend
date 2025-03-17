@@ -9,7 +9,7 @@ const index = async (_req, res) => {
       const deals = await knex("deals").select("*");
 
       if (deals.length === 0) {
-        return res.status(404).json({ message: "No venues found" });
+        return res.status(404).json({ message: "No deals found" });
     }
       res.status(200).json(deals);
     } catch (e) {
@@ -20,49 +20,15 @@ const index = async (_req, res) => {
 // Get a single deal by ID
 const findOne = async (req, res) => {
     try {
-        const deal = await knex("deals").where({ id: req.params.id });
+        const deal = await knex("deals").where({ id: req.params.id }).first();
 
-        if (deal.length === 0) {
+        if (!deal) {
             return res.status(404).json({
                 message: `Deal with ID ${req.params.id} not found`,
             });
         }
 
-        const dealData = deal[0];
-        const { updated_at, created_at, ...data } = dealData;
-
-        // try {
-        //     const deal = await knex("deals")
-        //         .select(
-        //             "deals.*", 
-        //             "venues.id as venue_id", 
-        //             "venues.name as venue_name", 
-        //             "venues.neighbourhood", 
-        //             "venues.address", 
-        //             "venues.website"
-        //         )
-        //         .join("venues", "deals.venue_id", "venues.id")
-        //         .where("deals.id", req.params.id)
-        //         .first(); 
-    
-        //     if (!deal) {
-        //         return res.status(404).json({
-        //             message: `Deal with ID ${req.params.id} not found`,
-        //         });
-        //     }
-    
-        //     const { updated_at, created_at, venue_id, venue_name, neighbourhood, address, website, ...dealData } = deal;
-            
-        //     const responseData = {
-        //         ...dealData, 
-        //         venue: { 
-        //             id: venue_id,
-        //             name: venue_name,
-        //             neighbourhood,
-        //             address,
-        //             website
-        //         }
-        //     };
+        const { updated_at, created_at, ...data } = deal;
 
         res.status(200).json(data);
     } catch (e) {
@@ -73,8 +39,31 @@ const findOne = async (req, res) => {
     }
 };
 
+const findByVenue = async (req, res) => {
+    try {
+    //   const deals = await knex("deals").where({ venue_id: req.params.id })
+
+    const deals = await knex("deals")
+    .select(
+        'deals.*', 
+        'venues.name as name',
+        'venues.neighbourhood as neighbourhood', )
+    .join('venues', 'deals.venue_id', 'venues.id')
+    .where({ 'deals.venue_id': req.params.id });
+
+
+      if (deals.length === 0) {
+        return res.status(404).json({ message: "No deals found" });
+    }
+      res.status(200).json(deals);
+    } catch (e) {
+      res.status(400).send(`Error retrieving Users: ${e}`);
+    }
+};
+
 export {
     index,
     findOne,
+    findByVenue
 }
     
