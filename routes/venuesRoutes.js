@@ -17,4 +17,9 @@ router
 .route("/:id/deals")
 .get(dealsControllers.findByVenue);
 
+router
+  .route("/:id/comments")
+  .get(commentsControllers.getComments)
+  .post(commentsControllers.createComment);
+
 export default router;
