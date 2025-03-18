@@ -2,14 +2,14 @@
   "name": "alexandria-balkaran-capstone-backend",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "migrate": "knex migrate:latest",
     "migrate:down": "npx knex migrate:down",
     "seed": "knex seed:run",
-    "start": "nodemon index.js"
+    "start": "node --watch index.js"
   },
-  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",

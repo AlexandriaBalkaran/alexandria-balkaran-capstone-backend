@@ -8,6 +8,7 @@ export function up(knex) {
       table.string('name').notNullable(); 
       table.string('neighbourhood').notNullable(); 
       table.string('address').notNullable();  
+      table.string('photo').notNullable(); 
       table.string('website').nullable(); 
       table.timestamp('created_at').defaultTo(knex.fn.now());
       table.timestamp('updated_at').defaultTo(knex.raw('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'));  // Timestamp for updates
