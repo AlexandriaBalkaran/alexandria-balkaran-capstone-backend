@@ -63,7 +63,7 @@ const add = async (req, res) => {
 const update = async (req, res) => {
     try {
         const { comment } = req.body;
-        const commentId = req.params.id;
+        const commentId = req.params.commentId;
 
         if (!comment?.trim()) {
             return res.status(400).json({ message: "Comment cannot be empty" });
@@ -87,7 +87,7 @@ const update = async (req, res) => {
 // Delete Comment
 const remove = async (req, res) => {
     try {
-        const commentId = req.params.id;
+        const commentId = req.params.commentId;
 
         const commentExists = await knex("comments")
             .where({ id: commentId })

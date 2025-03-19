@@ -28,7 +28,10 @@ router
 .route("/:id/comments")
 .get(commentsControllers.findByVenue)
 .post(commentsControllers.add);
-// .put(commentsControllers.update)
-// .delete(commentsControllers.remove);
+
+router
+.route("/:id/comments/:commentId")
+.put(commentsControllers.update)
+.delete(commentsControllers.remove);
 
 export default router;
