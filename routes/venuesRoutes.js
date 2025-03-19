@@ -1,6 +1,5 @@
 import express from "express";
 import * as venuesControllers from "../controllers/venues-controllers.js";
-import * as commentsControllers from "../controllers/comments-controllers.js";
 
 
 const router = express.Router();
@@ -18,7 +17,6 @@ router
 router
 .route("/:id/deals")
 .get(venuesControllers.findByVenue)
-.get(venuesControllers.findVenueByTime);
 
 router
 .route("/deals/time")
