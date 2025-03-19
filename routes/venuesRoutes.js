@@ -1,5 +1,6 @@
 import express from "express";
 import * as venuesControllers from "../controllers/venues-controllers.js";
+import * as commentsControllers from '../controllers/comments-controllers.js'
 
 
 const router = express.Router();
@@ -21,13 +22,12 @@ router
 router
 .route("/deals/time")
 .get(venuesControllers.findVenueByTime);
-//Comments
-// router
-// .get(commentsControllers.index)
-// .post(commentsControllers.add);
 
-// router
-// .route("/comments/:commentId")
+//Comments
+router
+.route("/:id/comments")
+.get(commentsControllers.findByVenue)
+.post(commentsControllers.add);
 // .put(commentsControllers.update)
 // .delete(commentsControllers.remove);
 

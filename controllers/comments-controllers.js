@@ -4,7 +4,7 @@ import configuration from "../knexfile.js";
 const knex = initKnex(configuration);
 
 // Fetch All Comments
-const index = async (req, res) => {
+const findByVenue = async (req, res) => {
     try {
         const venueId = req.params.id;
         
@@ -109,7 +109,7 @@ const remove = async (req, res) => {
 };
 
 export {
-    index,
+    findByVenue,
     add,
     update,
     remove
