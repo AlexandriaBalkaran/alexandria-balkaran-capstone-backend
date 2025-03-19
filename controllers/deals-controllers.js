@@ -39,31 +39,8 @@ const findOne = async (req, res) => {
     }
 };
 
-const findByVenue = async (req, res) => {
-    try {
-    //   const deals = await knex("deals").where({ venue_id: req.params.id })
-
-    const deals = await knex("deals")
-    .select(
-        'deals.*', 
-        'venues.name as name',
-        'venues.neighbourhood as neighbourhood', )
-    .join('venues', 'deals.venue_id', 'venues.id')
-    .where({ 'deals.venue_id': req.params.id });
-
-
-      if (deals.length === 0) {
-        return res.status(404).json({ message: "No deals found" });
-    }
-      res.status(200).json(deals);
-    } catch (e) {
-      res.status(400).send(`Error retrieving Users: ${e}`);
-    }
-};
-
 export {
     index,
     findOne,
-    findByVenue
 }
     

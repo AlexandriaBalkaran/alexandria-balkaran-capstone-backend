@@ -12,4 +12,5 @@ router
 .route("/:id")
 .get(dealsControllers.findOne);
 
+
 export default router;

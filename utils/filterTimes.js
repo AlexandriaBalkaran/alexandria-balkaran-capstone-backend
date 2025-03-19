@@ -395,11 +395,11 @@
 //     // afternoon is from 1200 up to but not including 1800
 //     // evening is from 1800
     
-//     const getMorningActivities = () => activities.filter((activity) => activity.start < 1200);
+    const getMorningTimes = () => venues.filter((times) => times.start < 1200);
      
-//     const getAfternoonActivities = () => activities.filter((act) =>  act.start < 1800 && act.end >= 1200);
-    
-//     const getEveningActivities = () => activities.filter((act) =>  act.end >= 1800 || act.end < act.start);
+    const getAfternoonTimes = () => venues.filter((times) =>  times.start < 1800 && times.end >= 1200);
+
+    const getEveningTimes = () => venues.filter((times) =>  times.end >= 1800 || times.end < times.start);
     
     
 //     const isMorning = (activity) => activity.start < 1200;
@@ -407,22 +407,21 @@
 //     const isEve = (act) => act.end >= 1800 || act.end < act.start
     
     
-//     function getActivities(period) {
+   export function getTimes(period) {
       
-//         if (period === 'morn') return activities.filter(isMorning);
-//         if (period === 'aft') return activities.filter(isAft);
-//         if (period === 'eve') return activities.filter(isEve);
-//     }
+        if (period === 'morn') return times.filter(isMorning);
+        if (period === 'aft') return times.filter(isAft);
+        if (period === 'eve') return times.filter(isEve);
+    }
     
     
 //     console.log(getActivities('morn'))
     
     
     
-    
-//     function getActs(filterFn) {
-//         return activities.filter(filterFn)
-//     }
+    // function getActs(filterFn) {
+    //     return venues.filter(filterFn)
+    // }
     
 //     // console.log(getActs(isEve))
     
