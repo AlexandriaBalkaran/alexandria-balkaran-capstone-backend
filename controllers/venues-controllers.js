@@ -62,6 +62,20 @@ const findByVenue = async (req, res) => {
     }
 };
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // const findVenueByTime = async (req, res) => {
 //     try {
 //       const { period } = req.query;
