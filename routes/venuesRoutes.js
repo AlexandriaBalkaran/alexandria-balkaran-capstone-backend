@@ -19,10 +19,6 @@ router
 .route("/:id/deals")
 .get(venuesControllers.findByVenue)
 
-router
-.route("/deals/time")
-.get(venuesControllers.findVenueByTime);
-
 //Comments
 router
 .route("/:id/comments")
