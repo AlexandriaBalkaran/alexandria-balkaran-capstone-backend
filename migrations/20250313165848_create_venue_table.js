@@ -10,6 +10,7 @@ export function up(knex) {
     table.string('address').notNullable();  
     table.string('photo').notNullable(); 
     table.string('website').nullable(); 
+    table.text('description').nullable();
     table.decimal('lat', 9, 6).notNullable();
     table.decimal('lng', 9, 6).notNullable(); 
     table.timestamp('created_at').defaultTo(knex.fn.now());
