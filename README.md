@@ -16,8 +16,7 @@
     npm run seed
 
 5.  **Start the server:**
-    npm start
-
+    npm run start
 
 ---
 
